@@ -75,7 +75,20 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import logo from "./logo.png";
+import aire1 from "./aire1.jpg";
+import mirage from "./mirage.png";
+import daikin from "./daikin.png";
+import honey from "./honey.png";
+import bohn from "./bohn.png";
+
 export {
+  logo,
+  aire1,
+  mirage,
+  daikin,
+  honey,
+  bohn,
   brainwave,
   check,
   check2,

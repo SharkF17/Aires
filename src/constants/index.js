@@ -34,39 +34,49 @@ import {
   telegram,
   twitter,
   yourlogo,
+  mirage,
+  daikin,
+  honey,
+  bohn,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Servicios",
+    url: "#servicios",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Nosotros",
+    url: "#nosotros",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "HVAC",
+    url: "#hvac",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Seguridad",
+    url: "#seguridad",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Combustion",
+    url: "#combustion",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Industrial",
+    url: "#industrial",
+    onlyMobile: true,
+  },
+  {
+    id: "6",
+    title: "Contacto",
+    url: "#contacto",
     onlyMobile: true,
   },
 ];
@@ -75,7 +85,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [mirage, daikin, honey, bohn, yourlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -244,16 +254,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Venta de todo tipo de equipos de Aire Acondicionado",
+    text: "Trabajamos con equipos como: Minisplits, Termostatos, Válvulas, etc.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Instalaciones y reubicaciones de equipos ya adquiridos.",
+    text: "¿Te mudaste y quieres instalar equipo nuevo, o quieres pasar tu aire acondicionado a otra habitacion? Nosotros nos encargamos",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +271,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Presupuestos y levantamiento de proyectos",
+    text: "Acudimos con un especialista para brindar la mejor solución a tus necesidades.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Mantenimiento a equipos",
+    text: "Desde el mantenimiento preventivo hasta el correctivo, eliminando las fallas en los sistemas.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,18 +288,10 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Asesoría y servicio Post Venta",
+    text: "Ofrecemos seguimiento a nuestros clientes después de la compra, haciendo válida la garantía tanto de equipo como de servicio.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
